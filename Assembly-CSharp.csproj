@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{62A5377C-7C87-6474-DC91-E0754CA20773}</ProjectGuid>
+    <ProjectGuid>{0053CA19-0798-34DB-9906-A9C50B49642B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -46,7 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\TitleButton.cs" />
+     <Compile Include="Assets\Keida_rubbish\CameraFollow.cs" />
+     <Compile Include="Assets\Keida_rubbish\GeneratorScript.cs" />
+     <Compile Include="Assets\Keida_rubbish\mousecontroller.cs" />
+     <Compile Include="Assets\scripts\MainGame\GetAcc.cs" />
+     <Compile Include="Assets\scripts\MainGame\mapgenerator.cs" />
+     <Compile Include="Assets\scripts\StageSelect\CreateButton.cs" />
+     <Compile Include="Assets\scripts\StageSelect\MoveScene.cs" />
+     <Compile Include="Assets\scripts\Title\TitleButton.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
